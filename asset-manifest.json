@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.js": "/anitaglez360/static/js/main.4aa795fc.chunk.js",
+    "main.js.map": "/anitaglez360/static/js/main.4aa795fc.chunk.js.map",
+    "runtime-main.js": "/anitaglez360/static/js/runtime-main.af3ca767.js",
+    "runtime-main.js.map": "/anitaglez360/static/js/runtime-main.af3ca767.js.map",
+    "static/js/2.ba6d8075.chunk.js": "/anitaglez360/static/js/2.ba6d8075.chunk.js",
+    "static/js/2.ba6d8075.chunk.js.map": "/anitaglez360/static/js/2.ba6d8075.chunk.js.map",
+    "index.html": "/anitaglez360/index.html",
+    "static/js/2.ba6d8075.chunk.js.LICENSE.txt": "/anitaglez360/static/js/2.ba6d8075.chunk.js.LICENSE.txt",
+    "static/media/1 ALEPH.png": "/anitaglez360/static/media/1 ALEPH.00dde763.png",
+    "static/media/1.jpg": "/anitaglez360/static/media/1.c5952d96.jpg",
+    "static/media/10 PATADAS DE AHOGADO.png": "/anitaglez360/static/media/10 PATADAS DE AHOGADO.5c050163.png",
+    "static/media/10.jpg": "/anitaglez360/static/media/10.dc730457.jpg",
+    "static/media/11 POR EL HUECO DEL MUNDO.png": "/anitaglez360/static/media/11 POR EL HUECO DEL MUNDO.db0abda7.png",
+    "static/media/11.jpg": "/anitaglez360/static/media/11.80d7d330.jpg",
+    "static/media/12 SIN SENTIDO.png": "/anitaglez360/static/media/12 SIN SENTIDO.56701210.png",
+    "static/media/12.jpg": "/anitaglez360/static/media/12.c8545bd2.jpg",
+    "static/media/2 DESTINOS.png": "/anitaglez360/static/media/2 DESTINOS.e2d2f3bc.png",
+    "static/media/2.jpg": "/anitaglez360/static/media/2.081d1b0c.jpg",
+    "static/media/3 ESE OJO NEGRO QUE ME VISITA CADA NOCHE.png": "/anitaglez360/static/media/3 ESE OJO NEGRO QUE ME VISITA CADA NOCHE.7a309f22.png",
+    "static/media/3.jpg": "/anitaglez360/static/media/3.a19ec5c3.jpg",
+    "static/media/4 TIEMPO.png": "/anitaglez360/static/media/4 TIEMPO.aca0ffc9.png",
+    "static/media/4.jpg": "/anitaglez360/static/media/4.35021e1e.jpg",
+    "static/media/7 PULSO.png": "/anitaglez360/static/media/7 PULSO.d4bf395b.png",
+    "static/media/7.jpg": "/anitaglez360/static/media/7.58a7fb22.jpg",
+    "static/media/8 PLACEBO.png": "/anitaglez360/static/media/8 PLACEBO.e6a0e840.png",
+    "static/media/8.jpg": "/anitaglez360/static/media/8.d130f769.jpg",
+    "static/media/9 VOLUNTAD.png": "/anitaglez360/static/media/9 VOLUNTAD.8941bc42.png",
+    "static/media/9.jpg": "/anitaglez360/static/media/9.4b4dd3ca.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af3ca767.js",
+    "static/js/2.ba6d8075.chunk.js",
+    "static/js/main.4aa795fc.chunk.js"
+  ]
+}
