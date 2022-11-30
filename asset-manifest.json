@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/anitaglez360/static/js/main.16b75f8d.chunk.js",
-    "main.js.map": "/anitaglez360/static/js/main.16b75f8d.chunk.js.map",
+    "main.js": "/anitaglez360/static/js/main.24160aee.chunk.js",
+    "main.js.map": "/anitaglez360/static/js/main.24160aee.chunk.js.map",
     "runtime-main.js": "/anitaglez360/static/js/runtime-main.af3ca767.js",
     "runtime-main.js.map": "/anitaglez360/static/js/runtime-main.af3ca767.js.map",
-    "static/js/2.f3e8ab6b.chunk.js": "/anitaglez360/static/js/2.f3e8ab6b.chunk.js",
-    "static/js/2.f3e8ab6b.chunk.js.map": "/anitaglez360/static/js/2.f3e8ab6b.chunk.js.map",
+    "static/js/2.390efdb0.chunk.js": "/anitaglez360/static/js/2.390efdb0.chunk.js",
+    "static/js/2.390efdb0.chunk.js.map": "/anitaglez360/static/js/2.390efdb0.chunk.js.map",
     "index.html": "/anitaglez360/index.html",
-    "static/js/2.f3e8ab6b.chunk.js.LICENSE.txt": "/anitaglez360/static/js/2.f3e8ab6b.chunk.js.LICENSE.txt",
+    "static/js/2.390efdb0.chunk.js.LICENSE.txt": "/anitaglez360/static/js/2.390efdb0.chunk.js.LICENSE.txt",
     "static/media/1 ALEPH.png": "/anitaglez360/static/media/1 ALEPH.00dde763.png",
     "static/media/1.jpg": "/anitaglez360/static/media/1.c5952d96.jpg",
     "static/media/10 PATADAS DE AHOGADO.png": "/anitaglez360/static/media/10 PATADAS DE AHOGADO.5c050163.png",
@@ -16,6 +16,20 @@
     "static/media/11.jpg": "/anitaglez360/static/media/11.80d7d330.jpg",
     "static/media/12 SIN SENTIDO.png": "/anitaglez360/static/media/12 SIN SENTIDO.56701210.png",
     "static/media/12.jpg": "/anitaglez360/static/media/12.c8545bd2.jpg",
+    "static/media/13 A SU IMAGEN Y SEMEJANZA.png": "/anitaglez360/static/media/13 A SU IMAGEN Y SEMEJANZA.385955c8.png",
+    "static/media/13.jpg": "/anitaglez360/static/media/13.08e8e4e6.jpg",
+    "static/media/14 IDENTIDAD PERDIDA.png": "/anitaglez360/static/media/14 IDENTIDAD PERDIDA.ae6e48bb.png",
+    "static/media/14.jpg": "/anitaglez360/static/media/14.42b4c8f6.jpg",
+    "static/media/15 DISNOMIA.png": "/anitaglez360/static/media/15 DISNOMIA.94624642.png",
+    "static/media/15.jpg": "/anitaglez360/static/media/15.a39a1f06.jpg",
+    "static/media/16 CUANDO EL PROPOSITO ES VOLAR.png": "/anitaglez360/static/media/16 CUANDO EL PROPOSITO ES VOLAR.7d6cb21e.png",
+    "static/media/16.jpg": "/anitaglez360/static/media/16.b12fa808.jpg",
+    "static/media/17 DUENA DE MI PROPIA OSCURIDAD.png": "/anitaglez360/static/media/17 DUENA DE MI PROPIA OSCURIDAD.ddcc8ed8.png",
+    "static/media/17.jpg": "/anitaglez360/static/media/17.c888f803.jpg",
+    "static/media/18 537.png": "/anitaglez360/static/media/18 537.8d07c575.png",
+    "static/media/18.jpg": "/anitaglez360/static/media/18.a4298556.jpg",
+    "static/media/19 VOLUNTAD.png": "/anitaglez360/static/media/19 VOLUNTAD.329a798d.png",
+    "static/media/19.jpg": "/anitaglez360/static/media/19.b52f2629.jpg",
     "static/media/2 DESTINOS.png": "/anitaglez360/static/media/2 DESTINOS.e2d2f3bc.png",
     "static/media/2.jpg": "/anitaglez360/static/media/2.081d1b0c.jpg",
     "static/media/3 ESE OJO NEGRO QUE ME VISITA CADA NOCHE.png": "/anitaglez360/static/media/3 ESE OJO NEGRO QUE ME VISITA CADA NOCHE.7a309f22.png",
@@ -32,7 +46,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.af3ca767.js",
-    "static/js/2.f3e8ab6b.chunk.js",
-    "static/js/main.16b75f8d.chunk.js"
+    "static/js/2.390efdb0.chunk.js",
+    "static/js/main.24160aee.chunk.js"
   ]
 }
