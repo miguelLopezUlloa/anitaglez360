@@ -1,8 +1,10 @@
 {
+  "homepage": "https://miguelLopezUlloa.github.io/anitaglez360",
   "name": "create-react-app-with-styled-components",
   "version": "5.0.0",
   "private": true,
   "dependencies": {
+    "@fontsource/bellota": "^4.5.10",
     "@material-ui/core": "^4.12.3",
     "@material-ui/icons": "^4.11.2",
     "@mui/lab": "latest",
@@ -17,6 +19,8 @@
     "styled-components": "latest"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
@@ -35,6 +39,7 @@
     ]
   },
   "devDependencies": {
-    "@craco/craco": "latest"
+    "@craco/craco": "latest",
+    "gh-pages": "^4.0.0"
   }
 }

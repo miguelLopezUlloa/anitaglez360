@@ -20,12 +20,12 @@ import Box from '@mui/material/Box';
 
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 
-import { shadows } from '@mui/system';
 import Copyright from "./components/Copyright";
 import Header from "./components/Header";
 import Modal from '@mui/material/Modal';
 import Backdrop from '@mui/material/Backdrop';
-import Imagepreview from './components/Imagepreview';
+import IconButton from '@material-ui/core/IconButton';
+import CloseIcon from '@material-ui/icons/Close';
 
 import image from './images/1 ALEPH.png';
 import image2 from './images/2 DESTINOS.png';
@@ -37,6 +37,14 @@ import image7 from './images/9 VOLUNTAD.png';
 import image8 from './images/10 PATADAS DE AHOGADO.png';
 import image9 from './images/11 POR EL HUECO DEL MUNDO.png';
 import image10 from './images/12 SIN SENTIDO.png';
+import image11 from './images/13 A SU IMAGEN Y SEMEJANZA.png';
+import image12 from './images/14 IDENTIDAD PERDIDA.png';
+import image13 from './images/15 DISNOMIA.png';
+import image14 from './images/16 CUANDO EL PROPOSITO ES VOLAR.png';
+import image15 from './images/17 DUENA DE MI PROPIA OSCURIDAD.png';
+import image16 from './images/18 537.png';
+import image17 from './images/19 VOLUNTAD.png';
+
 
 import imgBig1 from './images/1.jpg';
 import imgBig2 from './images/2.jpg';
@@ -46,13 +54,23 @@ import imgBig7 from './images/7.jpg';
 import imgBig8 from './images/8.jpg';
 import imgBig9  from './images/9.jpg';
 import imgBig10 from './images/10.jpg';
-import imgBig11 from './images/11.jpg'
-import imgBig12 from './images/12.jpg'
+import imgBig11 from './images/11.jpg';
+import imgBig12 from './images/12.jpg';
+import imgBig13 from './images/13.jpg';
+import imgBig14 from './images/14.jpg';
+import imgBig15 from './images/15.jpg';
+import imgBig16 from './images/16.jpg';
+import imgBig17 from './images/17.jpg';
+import imgBig18 from './images/18.jpg';
+import imgBig19 from './images/19.jpg';
 
-const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 const textPaints = ["Text1","Text2", "Text3","Text4","Text5","Text6","Text7", "Text8","Text9","Text10"];
 
 const useStyles = makeStyles((theme) => ({
+    root: {
+      flexGrow: 1,
+    },
     container:{
       width: 20,
       height: 620,
@@ -86,8 +104,11 @@ const imagesGal = importAll(require.context('./images', false, /\.(png|jpe?g|svg
 
 console.log("Inside Gallery sources");
 
-const imageData=[image,image2,image3,image4,image5,image6,image7,image8,image9,image10];
-const imgDataBig=[imgBig1,imgBig2,imgBig3,imgBig4,imgBig7,imgBig8, imgBig9, imgBig10, imgBig11, imgBig12];
+const imageData=[image,image2,image3,image4,image5,image6,image7,image8,
+                 image9,image10, image11, image12, image13, image14, image15, image16, image17];
+const imgDataBig=[imgBig1,imgBig2,imgBig3,imgBig4,imgBig7,imgBig8, 
+                  imgBig9, imgBig10, imgBig11, imgBig12, imgBig13, imgBig14, imgBig15, 
+                  imgBig16, imgBig17, imgBig18, imgBig19];
 
 //export default ImageData;
 
@@ -130,12 +151,11 @@ export default function App() {
               color="text.primary"
               gutterBottom
             >
-              360 Grade New Age
+              360º
             </Typography>
             <Typography variant="h5" align="center" color="text.secondary" paragraph>
-              Something short and leading about the collection below—its contents,
-              the creator, etc. Make it short and sweet, but not too short so folks
-              don&apos;t simply skip over it entirely.
+              Un mundo que colapsa entre el deseo y la ilusión. Mi universo navegando en el
+              lenguaje del recuerdo.
             </Typography>
             <Stack
               sx={{ pt: 4 }}
@@ -160,7 +180,7 @@ export default function App() {
                     component="img"
                     sx={{
                       // 16:9
-                      pt: '56.25%',
+                      pt: '25.25%',
                     }}
                     //image="https://source.unsplash.com/random"
                     //src={image2}
@@ -170,16 +190,16 @@ export default function App() {
                   />
                   <CardContent sx={{ flexGrow: 1 }}>
                     <Typography gutterBottom variant="h5" component="h2">
-                      Heading
+                      
                     </Typography>
                     <Typography>
-                        {textPaints[index] }
+                       {/*  {textPaints[index] } */}
                     </Typography>
                   </CardContent>
                   <CardActions>
                     <Button id= { index} size="small"  setselectedimage = {setselectedimage} 
                         onClick={() => { setOpen(true); setselectedimage(imgDataBig[index], index);}} > 
-                        View 
+                        Ver 
                     </Button>
                     {/* <Button size="small">Edit</Button> */}
 
@@ -198,6 +218,7 @@ export default function App() {
             open={open}
             onClose={handleClose}
           >
+
             <Container className={classes.container} maxWidth="md">
               <Grid
                 container
@@ -216,6 +237,23 @@ export default function App() {
                     </Box>
                   )}
                  </Grid>
+
+                  <IconButton aria-label="Cerrar" 
+                              onClick={handleClose}
+                              sx={{
+                                position: 'absolute',
+                                right: 8,
+                                top: 8,
+                                color: (theme) => theme.palette.grey[500],
+                              }}
+                              >
+                      <CloseIcon />
+                  </IconButton>
+
+
+                  <Button onClick={handleClose} autoFocus>
+                    Cerrar
+                  </Button>
               </Grid>
              </Container>
          </Modal>
