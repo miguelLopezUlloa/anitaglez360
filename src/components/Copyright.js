@@ -9,7 +9,7 @@ const Copyright = () => {
     <>
       <Typography variant="body2" color="text.secondary" align="center">
         {"Copyright ©"}
-        <Link color="inherit" href="http://anaibisgonzalez.com/">
+        <Link color="inherit" href="">
             Anita Gonzalez Delgado
         </Link>{" "}
         {new Date().getFullYear()}.
