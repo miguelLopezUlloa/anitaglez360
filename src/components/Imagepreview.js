@@ -24,7 +24,7 @@ const Imagepreview = () => {
                   <img
                     src={selectedImage}
                     alt={selectedImage.name}
-                    height="500px"
+                    height="400px"
                   />
                 </Box>
               )}
