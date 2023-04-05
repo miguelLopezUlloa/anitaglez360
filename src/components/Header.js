@@ -96,7 +96,7 @@ const Header = () => {
                       <img onClick={handleClose}
                         src={selectedartist}
                         alt={selectedartist.name}
-                        height="500px"
+                        height="400px"
                       />
                     </Box>
                   )}
