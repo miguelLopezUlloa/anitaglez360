@@ -226,13 +226,13 @@ export default function App() {
                 spacing={1}
                 columns={{ xs: 12, sm: 6, md: 6 }}
               >
-                <Grid item md={6}>
+                <Grid item md={6} alignContent="center">
                   {selectedImage && (
-                    <Box mt={8} textAlign="center" sx={{ width: "auto" }}>
-                      <img
+                    <Box mt={8} textAlign="center" onClick={handleClose} sx={{ width: "auto" }}>
+                      <img alignContent="center"
                         src={selectedImage}
                         alt={selectedImage.name}
-                        height="500px"
+                        height="450px"
                       />
                     </Box>
                   )}

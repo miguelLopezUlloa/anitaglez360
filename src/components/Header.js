@@ -93,7 +93,7 @@ const Header = () => {
                 <Grid item md={6}>
                   {selectedartist && (
                     <Box mt={8} textAlign="center" sx={{ width: "auto" }}>
-                      <img
+                      <img onClick={handleClose}
                         src={selectedartist}
                         alt={selectedartist.name}
                         height="500px"
