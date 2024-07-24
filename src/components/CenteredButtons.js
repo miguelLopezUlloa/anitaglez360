@@ -19,7 +19,7 @@ export default function CenteredButtons() {
 
   return (
     <Box className={classes.root}>
-      <IconButton color="primary" aria-label="Anita Face" href="https://www.facebook.com/profile.php?id=100009641911013" target="_blank">
+      <IconButton color="primary" aria-label="Anita Gonzalez Face" href="https://www.facebook.com/profile.php?id=100009641911013" target="_blank">
         <FacebookIcon />
       </IconButton>
       <IconButton color="primary" aria-label="Anita Instagram">
